@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.rest {
+    background-image: url('https://media.istockphoto.com/id/1130714046/photo/empty-dark-wooden-table-in-front-of-abstract-blurred-bokeh-background-of-restaurant-can-be.webp?b=1&s=170667a&w=0&k=20&c=81AFO47LmBWjAa8643R4JO4bFyBRPAkYlH23Cc6t3Cw=');
+     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-block-end: 300px; 
+    background-position: center center;
+}
+.nav1 li{
+list-style-type: none;
+padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+a:hover{
+    color: burlywood;
+    
+}
+.nav1 ul{
+ display: flex;
+ padding-top: 10px;
+}
+
+.extra{
+    margin-top: 50%;
+}
+h2{
+    font-family:'Brush Script MT';
+    text-align: center;
+    color: rgb(236, 169, 82);
+    font-weight: lighter;
+    font-size:2em;
+}
+h1{
+    color:aliceblue;
+    font-family: verdana;
+    text-justify: auto;
+    text-align:center;
+}
+
+.rest h2 {
+    padding-top: 300px;
+}
+.first{
+    color: aliceblue;
+    background-color: rgb(27, 22, 22);
+    padding-block-end: 100px;   
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
+}
+
+/*second step*/    
+.b1{
+   border:3px solid rgb(169, 146, 146); 
+   width:23.3%;
+   border-radius:6px ;  
+   padding-top: 50;  
+} 
+.b2{
+    border:3px solid rgb(169, 146, 146); 
+    width:23.3%;
+    border-radius:6px ;
+    margin-left: 80px;
+    display: inline-block;
+    padding-left: 50;
+    vertical-align: middle;
+}
+  
+div.b1 img{
+    width:100%;
+    min-height:auto;
+}
+div.b2 img{
+    width:100%;
+    min-height:auto;
+}
+div.b1{
+    width: 180px;
+    display: inline-block;/*multiple image in single line*/
+    vertical-align: middle;/*adjust the elements in mibble of that block*/ 
+}
+div.b1 h3{
+    color:rgb(236, 169, 82);
+}  
+div.b2{
+    width:180px;   
+} 
+div.b1 p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.container{
+    padding-top: 80px;
+    text-align: center;
+}
+/* showcase */
+.showcase{
+   min-height :500px;
+   background-image:url('https://images.unsplash.com/photo-1599458252573-56ae36120de1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMHRhYmxlfGVufDB8fDB8fHww') ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   background-position: center center;
+}
+.showcase h2{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.showcase p{
+    margin: 10px 0;
+}
+.showcase .grid{
+    grid-template-columns:55% 35% ;
+    gap: 30px;
+}
+.showcase-form{
+    position: relative;
+    z-index: 100;
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+}
+.card{   
+    border-radius: 6px;
+    padding: 2px;    
+}
+.showcase-form .form-control{
+    margin:30px 0;
+}
+.showcase-form input[type='text'],.showcase-form input[type='email'],.showcase-form input[type='number'],.showcase-form input[type='date']{
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 80%;
+    padding: 5px;
+}
+.showcase-form input[type=submit]{
+    width:83%;
+    padding: 5px;
+    background-color:rgb(236, 169, 82);
+    margin-bottom: 15px;
+}
+.showcase-form {
+    border: 3px solid rgb(120, 113, 113);   
+}
+.showcase-form input:focus{
+    outline:none;
+}
+div.showcase-text h2{
+    text-align: left;
+}
+.btn:hover{
+    transform:scale(0.98);/*to change button size*/
+}
+.vedio{
+    align-content: center;
+    padding-left: 20px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.second{
+   
+    color: aliceblue;
+    background-color: rgb(27, 22, 22);  
+}
+.container2{
+    padding: 120px;
+    text-align: center;
+}
+.item1 {    
+    border: 2px solid burlywood;
+    width:23.3%;
+    padding-top: 50;  
+}
+div.item1 img{
+    width:100%;
+    min-height: auto;
+    
+}
+div.item1{
+    width: 180px;
+    display: inline-block;
+    vertical-align: middle;
+}
+footer{
+    text-align:center ;
+    background-color: burlywood;
+}
+@media(max-width:600px){
+    .container2{
+        width:100%;
+        float:none;
+    }
+}
